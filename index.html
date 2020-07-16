@@ -19,7 +19,11 @@
         <button onclick="play('lofi0.1')";>lofi |0.1|</button>
         <button onclick="play('dgts')";>coffie for you're head</button>
         <button onclick="play('last summer')";>last summer</button>
-        <p>Date/Time: <span id="datetime"></span></p>
+        <script>
+            var d = new Date();
+            document.getElementById("demo").innerHTML = d;
+        </script>
+
     </body>
     <style>
          body {
